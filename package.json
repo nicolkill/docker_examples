@@ -1,0 +1,23 @@
+{
+  "name": "docker_presentation",
+  "version": "1.0.0",
+  "description": "docker_presentation",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app/app.js",
+    "test": "./node_modules/mocha/bin/mocha ./tests/*.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicolkill/docker_presentation.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicolkill/docker_presentation/issues"
+  },
+  "homepage": "https://github.com/nicolkill/docker_presentation#readme",
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  }
+}
