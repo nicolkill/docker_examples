@@ -4,13 +4,9 @@ services:
     build: ./
     volumes:
       - .:/app
-#    networks:
-#      - default
-#      - proxy
     depends_on:
       - mongo
     environment:
-#      VIRTUAL_HOST: test.test
       PORT: 5000
     ports:
       - 80:5000
@@ -23,7 +19,3 @@ services:
       MONGO_INITDB_DATABASE: test
       MONGO_INITDB_ROOT_USERNAME: test
       MONGO_INITDB_ROOT_PASSWORD: test
-
-#networks:
-#  proxy:
-#    external: true
