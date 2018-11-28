@@ -1,12 +1,10 @@
+const express = require('express');
 
-const func = () => {
-  return {
-    text: 'some_text',
-  };
-};
+const data = require('./data');
 
-module.exports = {
-  func,
-};
+const port = process.env.PORT || 5000;
+const app = express();
 
-console.log(func());
+app.get('/', (req, res) => res.json(data.func()));
+
+app.listen(port, () => console.log(`Example app listening on port http://localhost:${port}!`))

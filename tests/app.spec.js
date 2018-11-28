@@ -1,6 +1,6 @@
 const assert = require('assert');
 
-const toTest = require('../app/app.js');
+const toTest = require('../app/data.js');
 
 describe('testing the test', () => {
   describe('func', () => {

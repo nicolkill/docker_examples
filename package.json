@@ -19,5 +19,8 @@
   "homepage": "https://github.com/nicolkill/docker_presentation#readme",
   "devDependencies": {
     "mocha": "^5.2.0"
+  },
+  "dependencies": {
+    "express": "^4.16.4"
   }
 }
